@@ -1,0 +1,157 @@
+```html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>乙音コイ OFFICIAL SITE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #D4D9DF;
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            color: #333333;
+        }
+        .accent-pink {
+            color: #E86A92;
+        }
+        .bg-pink-accent {
+            background-color: #E86A92;
+        }
+        .card-bg {
+            background-color: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(8px);
+        }
+    </style>
+</head>
+<body class="min-h-screen py-10 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl mx-auto space-y-8">
+        
+        <!-- ヘッダー -->
+        <header class="text-center py-6 card-bg rounded-2xl shadow-lg border border-white/50">
+            <h1 class="text-4xl font-extrabold tracking-wider accent-pink mb-2">乙音コイ</h1>
+            <p class="text-xs uppercase tracking-widest text-gray-500 font-bold">OTONE KOI OFFICIAL WEBSITE</p>
+        </header>
+
+        <!-- WHAT IS KOI? -->
+        <section class="card-bg rounded-2xl p-6 sm:p-8 shadow-lg border border-white/50">
+            <h2 class="text-2xl font-bold mb-4 flex items-center gap-3 accent-pink">
+                <i class="fa-solid fa-star"></i>
+                WHAT IS KOI?
+            </h2>
+            <div class="space-y-4 text-gray-700 leading-relaxed">
+                <p>
+                    「乙音コイ（OTONE KOI）」は、小学3年生の開発者自身がキャラクターデザインおよびCV（キャラクターボイス）を務めて誕生した音声ライブラリ／キャラクタープロジェクトです。
+                </p>
+                <p>
+                    声のタイプは自然体で親しみやすい<strong class="accent-pink font-semibold">「地声」</strong>。飾らないストレートな魅力で、様々な楽曲や表現に寄り添います。
+                </p>
+            </div>
+        </section>
+
+        <!-- キャラ設定 -->
+        <section class="card-bg rounded-2xl p-6 sm:p-8 shadow-lg border border-white/50">
+            <h2 class="text-2xl font-bold mb-6 flex items-center gap-3 accent-pink">
+                <i class="fa-solid fa-user-sparkles"></i>
+                キャラ設定
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-white/70 p-4 rounded-xl border border-gray-100 flex items-start gap-3">
+                    <div class="p-2 bg-pink-100 rounded-lg text-pink-500">
+                        <i class="fa-solid fa-cake-candles text-xl w-6 text-center"></i>
+                    </div>
+                    <div>
+                        <div class="text-xs text-gray-500 font-bold">年齢</div>
+                        <div class="text-lg font-bold text-gray-800">19歳</div>
+                    </div>
+                </div>
+
+                <div class="bg-white/70 p-4 rounded-xl border border-gray-100 flex items-start gap-3">
+                    <div class="p-2 bg-pink-100 rounded-lg text-pink-500">
+                        <i class="fa-solid fa-ruler-vertical text-xl w-6 text-center"></i>
+                    </div>
+                    <div>
+                        <div class="text-xs text-gray-500 font-bold">身長</div>
+                        <div class="text-lg font-bold text-gray-800">158 cm</div>
+                        <div class="text-xs text-gray-500">※ピーンと立ったツインテール込みで 173 cm</div>
+                    </div>
+                </div>
+
+                <div class="bg-white/70 p-4 rounded-xl border border-gray-100 flex items-start gap-3">
+                    <div class="p-2 bg-pink-100 rounded-lg text-pink-500">
+                        <i class="fa-solid fa-weight-scale text-xl w-6 text-center"></i>
+                    </div>
+                    <div>
+                        <div class="text-xs text-gray-500 font-bold">体重</div>
+                        <div class="text-lg font-bold text-gray-800">47 kg</div>
+                        <div class="text-xs text-gray-500">スリムだけど健康的なシンデレラ体重ライン</div>
+                    </div>
+                </div>
+
+                <div class="bg-white/70 p-4 rounded-xl border border-gray-100 flex items-start gap-3">
+                    <div class="p-2 bg-pink-100 rounded-lg text-pink-500">
+                        <i class="fa-solid fa-glass-water text-xl w-6 text-center"></i>
+                    </div>
+                    <div>
+                        <div class="text-xs text-gray-500 font-bold">お酒の好み</div>
+                        <div class="text-lg font-bold text-gray-800">いちごミルクで割る派</div>
+                    </div>
+                </div>
+
+                <div class="bg-white/70 p-4 rounded-xl border border-gray-100 flex items-start gap-3 md:col-span-2">
+                    <div class="p-2 bg-pink-100 rounded-lg text-pink-500">
+                        <i class="fa-solid fa-box-open text-xl w-6 text-center"></i>
+                    </div>
+                    <div>
+                        <div class="text-xs text-gray-500 font-bold">持ち物</div>
+                        <div class="text-lg font-bold text-gray-800">いちごミルク</div>
+                        <div class="text-xs text-gray-500">毎日2パックは飲む</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 音源ダウンロード -->
+        <section class="card-bg rounded-2xl p-6 sm:p-8 shadow-lg border border-white/50 text-center">
+            <h2 class="text-2xl font-bold mb-3 accent-pink flex items-center justify-center gap-3">
+                <i class="fa-solid fa-download"></i>
+                音源ダウンロード
+            </h2>
+            <p class="text-sm text-gray-600 mb-6">
+                乙音コイの音源データ（地声）および各種素材はGoogleドライブにて配信中です。
+            </p>
+            <a href="https://drive.google.com/drive/folders/1st1DujcBtdpyWIm8jkjBEL3TGfyloPr4" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="inline-flex items-center justify-center gap-3 bg-pink-accent hover:bg-pink-600 text-white font-bold py-4 px-8 rounded-full shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5">
+                <i class="fa-regular fa-folder-open text-xl"></i>
+                Google Driveで音源を取得
+            </a>
+        </section>
+
+        <!-- X (Twitter) リンク -->
+        <section class="card-bg rounded-2xl p-6 sm:p-8 shadow-lg border border-white/50 text-center">
+            <h2 class="text-2xl font-bold mb-3 accent-pink flex items-center justify-center gap-3">
+                <i class="fa-solid fa-paper-plane"></i>
+                公式SNS
+            </h2>
+            <p class="text-sm text-gray-600 mb-6">最新情報や活動状況はこちらからチェック！</p>
+            <a href="https://x.com/@otonekoi" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="inline-flex items-center justify-center gap-2 bg-gray-900 hover:bg-black text-white font-bold py-3 px-6 rounded-xl transition-all">
+                @otonekoi をフォローする
+            </a>
+        </section>
+
+        <!-- フッター -->
+        <footer class="text-center text-xs text-gray-600 py-4">
+            <p>&copy; 乙音コイ Project. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+</body>
+</html>
+```
